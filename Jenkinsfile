@@ -9,7 +9,7 @@ pipeline {
             steps {
                 git branch: 'main',
                     url: 'https://github.com/romesalvid/cicd.git',
-                    credentialsId: 'github-patt'
+                    credentialsId: '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'
             }
         }
         stage('Setup Python') {
