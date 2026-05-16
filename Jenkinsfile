@@ -2,7 +2,7 @@ pipeline {
     agent any
     environment {
         GIT_REPO_URL = 'https://github.com/romesalvid/cicd.git'
-        GIT_CREDENTIALS_ID = 'github-pat'
+        GIT_CREDENTIALS_ID = 'github-pat2'
         GIT_BRANCH = 'main'
     }
     stages {
