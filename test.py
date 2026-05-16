@@ -8,7 +8,7 @@ options.add_argument("--no-sandbox")
 options.add_argument("--disable-dev-shm-usage")
 
 # Point to your ChromeDriver
-service = Service("/usr/bin/chromedriver")  # <-- adjust path if needed
+service = Service("/snap/bin/chromedriver")  # <-- adjust path if needed
 
 driver = webdriver.Chrome(service=service, options=options)
 driver.get("https://www.google.com")
